@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <header class="header">
+        <a href="#" class="header__logo">
+            <img src="assets/images/logo.png" alt="" class="header__img">
+        </a>
+    </header>
+
+    <section class="main">
+        <div class="main__container">
+            
+            <div class="main__info">
+
+                <h1 class="title">Get your free account</h1>
+                <p class="descr">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</p>
+
+                <form action="#" class="form" id="form">
+                    <div>
+                    <label class="form__label">
+                        Full Name
+                        <input type="text" class="form__input" name="name">
+                    </label>
+
+                    <label class="form__label">
+                        Your username
+                        <input type="text" class="form__input" name="username">
+                    </label>
+
+                    <label class="form__label">
+                        E-mail
+                        <input type="email" class="form__input" name="mail">
+                    </label>
+
+                    <label class="form__label">
+                        Password
+                        <input type="password" class="form__input" name="password">
+                    </label>
+
+                    <label class="form__label">
+                        Repeat Password
+                        <input type="password" class="form__input" name="password-repeat">
+                    </label>
+
+                    <label class="form__checkbox">
+                        <input type="checkbox" name="agree" value="1" required> Agree to our Terms of Service and Privacy Statement
+                    </label>
+                    </div>
+                    <button class="button" id="form-button">Sign Up</button>
+                </form>
+                <div class="main__question">
+                    <a href="#" class="main__link">Already have an account?</a>
+                </div>
+                
+            </div>
+
+            <figure class="main__figure">
+                <img src="assets/images/main__img.png" alt="" class="main__img">
+            </figure>
+
+        </div>
+    </section>
+
+    <section class="overlay">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <h2 class="title">Регистрация прошла успешно</h2>
+            <p class="descr">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+            <button class="button" id="modal-button">ОК</button>
+        </div>
+    </section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
